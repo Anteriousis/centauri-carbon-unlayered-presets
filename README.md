@@ -27,7 +27,7 @@ Both inherit the corresponding installed Elegoo machine and process presets. The
 | Hotend side angle -Y / front | 6 degrees | Conservative rounded CAD enclosure; verify front duct seating and deformation |
 | Gantry height above nozzle | 14 mm | Conservative assembly-clearance proxy below a low fastener at 15.123 mm; actual lower X rod underside 34.250 mm. Wide/tall geometry and travel remain unverified |
 | Max tilt angle | 5 degrees | User-requested trial; worst full-mesh normal gap 0.583811 mm. Original conservative recommendation was 4 degrees |
-| Max total height | 10 mm | Small-test commissioning ceiling, not established nonplanar machine capacity |
+| Max total height | 100 mm | Corrected total explicit G-code Z cap, including stock end parking at Z100. Test objects remain below 10 mm; this is not a validated 100 mm nonplanar object capacity |
 | Chunk departure distance | 2 mm | Trial transition allowance; actual paths must be inspected |
 | Chunk approach height | 2 mm | Trial transition allowance; actual paths must be inspected |
 | Process print sequence | By group | Unlayered cut-plane/group workflow; verify root before cap in Preview |
@@ -36,9 +36,11 @@ The underlying geometry choices use a 0.5 mm nominal allowance. There is **no un
 
 The four-side pyramid has a worst-direction limit of **4.565151 degrees**, despite the 5 degree overall cap. The slicer can therefore reject some 5 degree diagonals. Preserve that restriction; inspect a rejected path instead of loosening the envelope to force it through.
 
-![Saved 0.4 mm settings](unlayered_saved_5deg_full_settings.png)
+The first saved screenshots below show the historical 10 mm height value. The corrected presets now use 100 mm because this field also checks start/end and transition travel, not only model height. The four-part slice described below demonstrated the correction. All four clearance angles and the 5 degree tilt ceiling remain unchanged.
 
-![Saved 0.2 mm settings](unlayered_saved_0p2_5deg_settings.png)
+![Initial saved 0.4 mm settings; height value superseded](unlayered_saved_5deg_full_settings.png)
+
+![Initial saved 0.2 mm settings; height value superseded](unlayered_saved_0p2_5deg_settings.png)
 
 ## Import
 
@@ -63,7 +65,26 @@ Its upward normal leans slightly toward +Y/back; the printed surface rises towar
 
 The full non-contact toolhead mesh has **1.213950 mm normal clearance** to an infinite 5 degree plane rising toward the front, limited by the front cowling/duct at nozzle-relative **(-15.199240, -33.958558, 4.189576) mm**. After subtracting the 0.5 mm allowance, **0.713950 mm** remains. The worst arbitrary diagonal at 5 degrees has only **0.583811 mm** nominal gap, leaving **0.083811 mm** above that target. The front wedge deliberately tests a direction with more modeled clearance.
 
-A hypothetical raised travel at Z=8 mm clears the wedge's highest point by 2.375340 mm vertically. This is a proposal, not a validated slicer transition. Slice and inspect Preview before generating printer code: changing Z during deposition, root-to-cap transition, staging, nearby material, approach, departure, XY traverse and every lift must clear the complete real head/assembly and travel limits. Some transition paths can exceed the 10 mm test ceiling; review them before changing that limit. No actual slice, G-code or printer motion is included or approved by this package.
+A hypothetical raised travel at Z=8 mm clears the wedge's highest point by 2.375340 mm vertically. This is a proposal, not a validated slicer transition for this standalone wedge. Slice and inspect Preview before generating printer code: changing Z during deposition, root-to-cap transition, staging, nearby material, approach, departure, XY traverse and every lift must clear the complete real head/assembly and travel limits. The old 10 mm total-path cap also rejected the unchanged stock end move to Z100 and has been corrected to 100 mm. No printer motion has been performed or validated.
+
+## Four-part support and curved-finish comparison
+
+The [four-part 0.4 mm project](comparison/Centauri_FOUR_object_AB_comparison.3mf) contains two identical overhang coupons and two identical custom curved blocks: A on the left uses horizontal layers; B on the right uses horizontal roots and 5 degree inclined upper regions. Open it **as a project**, preserving cut planes and process overrides. Both coupons use the same automatic support rules; the stock-derived process has supports enabled for this shared experiment.
+
+Unlayered 0.1.2 sliced the final project and its native post-slice hotend checker reported **clear**. Earlier inclined section boundaries produced transition warnings; the accepted project uses horizontal section boundaries with independent 5 degree build normals. Clearance angles were not loosened. This is bounded software evidence, not a physical safety claim.
+
+| Part | Model deposition estimate | Support + interface estimate |
+|---|---:|---:|
+| A Support, planar | 2.55 g | 0.951 g |
+| B Support, 5 degrees | 2.53 g | 0.349 g |
+| A Curved, planar | 2.22 g | 0 g |
+| B Curved, 5 degrees | 2.68 g | 0.180 g |
+
+The overhang coupon's sliced support deposition falls by **63.263%**; the curved B cap instead adds transition supports and more solid-skin material. These are path estimates, not weighed results. The full job estimate is **42m29s and 12.05 g**. No physical print result has been reported. The 0.2 mm configuration has not undergone this four-part slice or a physical print.
+
+![Four-part Preview; supports shown in green](comparison/four_object_preview_clear.png)
+
+See [comparison instructions and evidence limits](comparison/Comparison_Print_Plan.md) and [machine-readable slice results](comparison/comparison_slice_results.json). The models test one favorable 5 degree direction and shallow curved-surface finish, not every direction or the printer's maximum physical capability. The project contains no exported G-code. Native project metadata is included only after checking for account/host credentials and unrelated/private CAD. Firmware homing, cleaning and parking macros remain unverified.
 
 The original [4 degree coupon](Centauri_clearance_coupon_4deg_30x20mm.stl) and its analysis are also retained in the report as the more conservative starting geometry.
 

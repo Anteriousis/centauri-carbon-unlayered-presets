@@ -13,7 +13,7 @@
   "nonplanar_hotend_angle_ypos": "15",
   "nonplanar_hotend_cone_height": "125",
   "nonplanar_virtual_max_angle": "5",
-  "nonplanar_virtual_max_z": "10",
+  "nonplanar_virtual_max_z": "100",
   "printer_extruder_id": [
     "1"
   ],

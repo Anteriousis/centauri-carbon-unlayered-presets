@@ -10,7 +10,7 @@
   "cardinal_collision_geometry": [
     {
       "uphill_direction": "+X",
-      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+挤出头磁吸风道壳:1",
+      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+\u6324\u51fa\u5934\u78c1\u5438\u98ce\u9053\u58f3:1",
       "point_mm_from_nozzle": [
         24.030668823884383,
         0.6396920391873664,
@@ -23,7 +23,7 @@
     },
     {
       "uphill_direction": "-X",
-      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+挤出头磁吸风道壳:1",
+      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+\u6324\u51fa\u5934\u78c1\u5438\u98ce\u9053\u58f3:1",
       "point_mm_from_nozzle": [
         -17.35566607220329,
         9.639692992861654,
@@ -36,7 +36,7 @@
     },
     {
       "uphill_direction": "+Y",
-      "component": "XY_Assm:1+Toolhead:1+cowling:1+挤出头后壳:1",
+      "component": "XY_Assm:1+Toolhead:1+cowling:1+\u6324\u51fa\u5934\u540e\u58f3:1",
       "point_mm_from_nozzle": [
         32.176583679180965,
         44.401112699526294,
@@ -49,7 +49,7 @@
     },
     {
       "uphill_direction": "-Y",
-      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+挤出头磁吸风道壳:1",
+      "component": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+\u6324\u51fa\u5934\u78c1\u5438\u98ce\u9053\u58f3:1",
       "point_mm_from_nozzle": [
         -15.820141942335738,
         -34.03736999541958,
@@ -76,7 +76,7 @@
     "consistent_winding": true,
     "volume_mm3": 2587.3980045318604,
     "macro_toolhead_front_plane_clearance": {
-      "component_path": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+挤出头磁吸风道壳:1",
+      "component_path": "XY_Assm:1+Toolhead:1+cowling:1+front cowling:1+\u6324\u51fa\u5934\u78c1\u5438\u98ce\u9053\u58f3:1",
       "point_mm_from_nozzle": [
         -15.199240357710494,
         -33.95855834991177,
@@ -99,5 +99,20 @@
     "sha256": "f65373d982a684240fca7adb33277ee7d16236630be65d7ea2e06cd9abe5a94c",
     "nozzle_0p2_clearance_status": "Macro envelope carried over conditionally; physical geometry and tip position unverified.",
     "hypothetical_0p10_vertical_standoff_tip_rim_normal_gap_mm": 0.07783053412226001
+  },
+  "four_part_slice": {
+    "date": "2026-10-10",
+    "slicer": "Unlayered0.1.2",
+    "nozzle_mm": 0.4,
+    "material_profile": "Elegoo PETG",
+    "layer_height_mm": 0.2,
+    "native_hotend_check": "clear",
+    "physical_print": "not performed or reported",
+    "max_total_explicit_gcode_z_mm": 100,
+    "test_models_max_height_below_mm": 10,
+    "max_deposition_z_mm": 9.608,
+    "coupon_support_reduction_percent": 63.26344687665218,
+    "height_correction": "Earlier10mm total-height cap included end parking and rejected slice; corrected100mm is not100mm nonplanar object capacity.",
+    "details": "comparison/comparison_slice_results.json"
   }
 }
