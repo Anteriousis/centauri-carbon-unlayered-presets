@@ -1,5 +1,7 @@
 # Centauri Carbon Unlayered experimental presets
 
+**Physical trial reported with defects (10 October 2026).** The owner reports nonplanar support starts in midair, sticky supports, a block transition gap, stringing, and seams that change location between sections. The broken coupon is planar, and the owner clarified that the block issue is not warping. This is a physical trial, not successful validation. Finish improvement and usable support savings remain unproven; the exact printed project and hardware are awaiting confirmation. Read the [updated physical test record](comparison/Physical_Test_Record.md). Revise the test before repeating it.
+
 **Experimental 5 degree trial settings for an upright-nozzle, three-axis Elegoo Centauri Carbon. Physically unvalidated.** These are CAD-based clearance settings, not a manufacturer-approved configuration or a claim that nonplanar printing is safe on a real machine. The 0.2 mm clearance envelope is conditional on its installed external geometry and nozzle-tip position matching the inspected 0.4 mm assembly.
 
 Created and checked in **Unlayered Slicer 0.1.2** on 10 October 2026. Preset schema version is `2.4.0.7`, as saved by that application. Names refer to nozzle bore diameter; they do not imply a rotating nozzle.
@@ -69,7 +71,7 @@ A hypothetical raised travel at Z=8 mm clears the wedge's highest point by 2.375
 
 ## Four-part support and curved-finish comparison
 
-**Current curved-block variant:** [Open the four-part project with curved-block supports removed](comparison/Centauri_FOUR_object_AB_curved_support_free.3mf). Both curved blocks now have 0 g generated support; the overhang coupons retain their original support rules. The 5 degree build direction and horizontal transition are unchanged. Reopened and re-sliced: native hotend check clear; full-job estimate 42m 2s and 11.87 g. Read the [support-free transition review](comparison/Support_Free_Curved_Blocks.md) before a physical trial: short advancing transition regions may bridge or sag, and physical success remains untested. The table and image below preserve the original supported baseline.
+**Current curved-block variant:** [Open the four-part project with curved-block supports removed](comparison/Centauri_FOUR_object_AB_curved_support_free.3mf). Both curved blocks now have 0 g generated support; the overhang coupons retain their original support rules. The 5 degree build direction and horizontal transition are unchanged. Reopened and re-sliced: native hotend check clear; full-job estimate 42m 2s and 11.87 g. Read the [support-free transition review](comparison/Support_Free_Curved_Blocks.md) before a physical trial: short advancing transition regions may bridge or sag, and physical success is not established; the reported trial has defects. The table and image below preserve the original supported baseline.
 
 The [four-part 0.4 mm project](comparison/Centauri_FOUR_object_AB_comparison.3mf) contains two identical overhang coupons and two identical custom curved blocks: A on the left uses horizontal layers; B on the right uses horizontal roots and 5 degree inclined upper regions. Open it **as a project**, preserving cut planes and process overrides. Both coupons use the same automatic support rules; the stock-derived process has supports enabled for this shared experiment.
 
@@ -82,7 +84,7 @@ Unlayered 0.1.2 sliced the final project and its native post-slice hotend checke
 | A Curved, planar | 2.22 g | 0 g |
 | B Curved, 5 degrees | 2.68 g | 0.180 g |
 
-The overhang coupon's sliced support deposition falls by **63.263%**; the curved B cap instead adds transition supports and more solid-skin material. These are path estimates, not weighed results. The full job estimate is **42m29s and 12.05 g**. No physical print result has been reported. The 0.2 mm configuration has not undergone this four-part slice or a physical print.
+The overhang coupon's sliced support deposition falls by **63.263%**; the curved B cap instead adds transition supports and more solid-skin material. These are path estimates, not weighed results. The full job estimate is **42m29s and 12.05 g**. A physical trial with defects has now been reported; see the test record above. The exact project and hardware used remain unconfirmed. The 0.2 mm configuration has not undergone this four-part slice or a physical print.
 
 ![Four-part Preview; supports shown in green](comparison/four_object_preview_clear.png)
 

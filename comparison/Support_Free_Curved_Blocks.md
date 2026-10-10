@@ -1,6 +1,8 @@
 # Four-part comparison with supports removed from the curved block
 
-Status on 10 October 2026: saved in Unlayered Slicer 0.1.2, reopened and re-sliced; native hotend collision check **clear**. **No physical print has been performed or reported.** No user G-code was exported and nothing was sent to a printer.
+**Physical follow-up reported on 10 October 2026:** the owner reports midair support starts, excessive support adhesion, a root-to-cap gap, stringing, and seam discontinuity (not warping). The broken coupon is planar. Surface improvement and usable support savings are not established. Exact printed project/hardware and contact observations remain unconfirmed. See [Physical_Test_Record.md](Physical_Test_Record.md). The prepared slice evidence below is retained for comparison; do not reprint this test unchanged as a validated recipe.
+
+Status on 10 October 2026: saved in Unlayered Slicer 0.1.2, reopened and re-sliced; native hotend collision check **clear**. **At the original preparation checkpoint, no physical print had been reported. The follow-up above supersedes that status.** No user G-code was exported and nothing was sent to a printer.
 
 Open **Centauri_FOUR_object_AB_curved_support_free.3mf as a project**. This is the current variant requested for the curved surface-finish comparison. The original Centauri_FOUR_object_AB_comparison.3mf remains available as a historical baseline with generated transition supports.
 

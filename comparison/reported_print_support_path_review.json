@@ -1,0 +1,665 @@
+{
+  "scope": "Existing prepared Preview only; exact physically printed project and firmware behavior remain unconfirmed. Coordinates are moving nozzle-tip coordinates, not deposited bead surfaces. Bounds do not establish support continuity.",
+  "preview_sha256": "8dfd1c5ac3b6f3cdad5c7d11d49da383ab5f0901774374d460b01ce5bd25443d",
+  "groups": [
+    {
+      "object": "B_Support_coupon_-_INCLINED_5deg_id_1_copy_0",
+      "tool_axis_comment": "0,0,1",
+      "kind": "model",
+      "first_moves": [
+        {
+          "line": 25065,
+          "role": "Inner wall",
+          "from_mm": [
+            213.193,
+            185.193,
+            0.2
+          ],
+          "to_mm": [
+            162.807,
+            185.193,
+            0.2
+          ],
+          "filament_mm": 1.82038
+        },
+        {
+          "line": 25066,
+          "role": "Inner wall",
+          "from_mm": [
+            162.807,
+            185.193,
+            0.2
+          ],
+          "to_mm": [
+            162.807,
+            178.807,
+            0.2
+          ],
+          "filament_mm": 0.23071
+        },
+        {
+          "line": 25067,
+          "role": "Inner wall",
+          "from_mm": [
+            162.807,
+            178.807,
+            0.2
+          ],
+          "to_mm": [
+            213.193,
+            178.807,
+            0.2
+          ],
+          "filament_mm": 1.82038
+        },
+        {
+          "line": 25068,
+          "role": "Inner wall",
+          "from_mm": [
+            213.193,
+            178.807,
+            0.2
+          ],
+          "to_mm": [
+            213.193,
+            185.153,
+            0.2
+          ],
+          "filament_mm": 0.22927
+        },
+        {
+          "line": 25072,
+          "role": "Outer wall",
+          "from_mm": [
+            213.65,
+            185.65,
+            0.2
+          ],
+          "to_mm": [
+            162.35,
+            185.65,
+            0.2
+          ],
+          "filament_mm": 1.85341
+        },
+        {
+          "line": 25073,
+          "role": "Outer wall",
+          "from_mm": [
+            162.35,
+            185.65,
+            0.2
+          ],
+          "to_mm": [
+            162.35,
+            178.35,
+            0.2
+          ],
+          "filament_mm": 0.26374
+        }
+      ],
+      "bounds": [
+        [
+          162.21,
+          178.21,
+          0.2
+        ],
+        [
+          213.79,
+          185.79,
+          2.6
+        ]
+      ],
+      "moves": 2100
+    },
+    {
+      "object": "B_Support_coupon_-_INCLINED_5deg_id_1_copy_0",
+      "tool_axis_comment": "0,0,1",
+      "kind": "support",
+      "first_moves": [
+        {
+          "line": 28291,
+          "role": "Support interface",
+          "from_mm": [
+            165.007,
+            179.573,
+            2.4
+          ],
+          "to_mm": [
+            164.887,
+            179.573,
+            2.4
+          ],
+          "filament_mm": 0.00357
+        },
+        {
+          "line": 28292,
+          "role": "Support interface",
+          "from_mm": [
+            164.887,
+            179.573,
+            2.4
+          ],
+          "to_mm": [
+            164.752,
+            179.709,
+            2.4
+          ],
+          "filament_mm": 0.00572
+        },
+        {
+          "line": 28293,
+          "role": "Support interface",
+          "from_mm": [
+            164.752,
+            179.709,
+            2.4
+          ],
+          "to_mm": [
+            164.752,
+            180.487,
+            2.4
+          ],
+          "filament_mm": 0.02318
+        },
+        {
+          "line": 28294,
+          "role": "Support interface",
+          "from_mm": [
+            164.752,
+            180.487,
+            2.4
+          ],
+          "to_mm": [
+            164.777,
+            180.461,
+            2.4
+          ],
+          "filament_mm": 0.00106
+        },
+        {
+          "line": 28295,
+          "role": "Support interface",
+          "from_mm": [
+            164.777,
+            180.461,
+            2.4
+          ],
+          "to_mm": [
+            165.196,
+            180.461,
+            2.4
+          ],
+          "filament_mm": 0.01249
+        },
+        {
+          "line": 28296,
+          "role": "Support interface",
+          "from_mm": [
+            165.196,
+            180.461,
+            2.4
+          ],
+          "to_mm": [
+            165.196,
+            179.573,
+            2.4
+          ],
+          "filament_mm": 0.02648
+        }
+      ],
+      "bounds": [
+        [
+          164.752,
+          179.573,
+          2.4
+        ],
+        [
+          214.125,
+          185.79,
+          2.4
+        ]
+      ],
+      "moves": 184
+    },
+    {
+      "object": "B_Support_coupon_-_INCLINED_5deg_id_2_copy_0",
+      "tool_axis_comment": "5.33675e-18,0.0871557,0.996195",
+      "kind": "support",
+      "first_moves": [
+        {
+          "line": 29216,
+          "role": "Support",
+          "from_mm": [
+            193.816,
+            183.046,
+            2.622
+          ],
+          "to_mm": [
+            193.816,
+            182.951,
+            2.63
+          ],
+          "filament_mm": 0.00342
+        },
+        {
+          "line": 29217,
+          "role": "Support",
+          "from_mm": [
+            193.816,
+            182.951,
+            2.63
+          ],
+          "to_mm": [
+            194.55,
+            182.951,
+            2.63
+          ],
+          "filament_mm": 0.02653
+        },
+        {
+          "line": 29218,
+          "role": "Support",
+          "from_mm": [
+            194.55,
+            182.951,
+            2.63
+          ],
+          "to_mm": [
+            194.55,
+            183.046,
+            2.622
+          ],
+          "filament_mm": 0.00342
+        },
+        {
+          "line": 29219,
+          "role": "Support",
+          "from_mm": [
+            194.55,
+            183.046,
+            2.622
+          ],
+          "to_mm": [
+            193.884,
+            183.046,
+            2.622
+          ],
+          "filament_mm": 0.02406
+        },
+        {
+          "line": 29233,
+          "role": "Support",
+          "from_mm": [
+            201.45,
+            183.046,
+            2.622
+          ],
+          "to_mm": [
+            201.45,
+            182.951,
+            2.63
+          ],
+          "filament_mm": 0.00342
+        },
+        {
+          "line": 29234,
+          "role": "Support",
+          "from_mm": [
+            201.45,
+            182.951,
+            2.63
+          ],
+          "to_mm": [
+            204.55,
+            182.951,
+            2.63
+          ],
+          "filament_mm": 0.112
+        }
+      ],
+      "bounds": [
+        [
+          193.754,
+          182.908,
+          2.616
+        ],
+        [
+          211.017,
+          200.575,
+          8.008
+        ]
+      ],
+      "moves": 1290
+    },
+    {
+      "object": "B_Support_coupon_-_INCLINED_5deg_id_2_copy_0",
+      "tool_axis_comment": "5.33675e-18,0.0871557,0.996195",
+      "kind": "model",
+      "first_moves": [
+        {
+          "line": 29250,
+          "role": "Outer wall",
+          "from_mm": [
+            190.75,
+            181.258,
+            2.778
+          ],
+          "to_mm": [
+            190.75,
+            181.907,
+            2.721
+          ],
+          "filament_mm": 0.02355
+        },
+        {
+          "line": 29251,
+          "role": "Outer wall",
+          "from_mm": [
+            190.75,
+            181.907,
+            2.721
+          ],
+          "to_mm": [
+            185.25,
+            181.907,
+            2.721
+          ],
+          "filament_mm": 0.19871
+        },
+        {
+          "line": 29252,
+          "role": "Outer wall",
+          "from_mm": [
+            185.25,
+            181.907,
+            2.721
+          ],
+          "to_mm": [
+            185.25,
+            181.258,
+            2.778
+          ],
+          "filament_mm": 0.02355
+        },
+        {
+          "line": 29253,
+          "role": "Outer wall",
+          "from_mm": [
+            185.25,
+            181.258,
+            2.778
+          ],
+          "to_mm": [
+            190.71,
+            181.258,
+            2.778
+          ],
+          "filament_mm": 0.19726
+        },
+        {
+          "line": 29260,
+          "role": "Gap infill",
+          "from_mm": [
+            190.521,
+            181.582,
+            2.75
+          ],
+          "to_mm": [
+            185.479,
+            181.582,
+            2.75
+          ],
+          "filament_mm": 0.0776
+        },
+        {
+          "line": 29275,
+          "role": "Outer wall",
+          "from_mm": [
+            175.25,
+            181.907,
+            2.721
+          ],
+          "to_mm": [
+            175.25,
+            181.258,
+            2.778
+          ],
+          "filament_mm": 0.02355
+        }
+      ],
+      "bounds": [
+        [
+          165.21,
+          181.218,
+          2.718
+        ],
+        [
+          210.79,
+          198.481,
+          9.608
+        ]
+      ],
+      "moves": 6312
+    }
+  ],
+  "initial_cap_support_root_checks": [
+    {
+      "line": 29216,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        193.816,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": null,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.6219999999999999
+    },
+    {
+      "line": 29216,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        193.816,
+        182.99849999999998,
+        2.626
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": null,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.6259999999999999
+    },
+    {
+      "line": 29216,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        193.816,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": null,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.6299999999999999
+    },
+    {
+      "line": 29217,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        193.816,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": null,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.6299999999999999
+    },
+    {
+      "line": 29217,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        194.183,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29217,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        194.55,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29218,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        194.55,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29218,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        194.55,
+        182.99849999999998,
+        2.626
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22599999999999998
+    },
+    {
+      "line": 29218,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        194.55,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22199999999999998
+    },
+    {
+      "line": 29219,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        194.55,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22199999999999998
+    },
+    {
+      "line": 29219,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        194.21699999999998,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22199999999999998
+    },
+    {
+      "line": 29219,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        193.884,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": null,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.6219999999999999
+    },
+    {
+      "line": 29233,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        201.45,
+        183.046,
+        2.622
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22199999999999998
+    },
+    {
+      "line": 29233,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        201.45,
+        182.99849999999998,
+        2.626
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22599999999999998
+    },
+    {
+      "line": 29233,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        201.45,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29234,
+      "fraction_of_segment": 0.0,
+      "point_mm": [
+        201.45,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29234,
+      "fraction_of_segment": 0.5,
+      "point_mm": [
+        203.0,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    },
+    {
+      "line": 29234,
+      "fraction_of_segment": 1.0,
+      "point_mm": [
+        204.55,
+        182.951,
+        2.63
+      ],
+      "highest_prior_root_model_tip_z_within_0p25mm_xy": 2.0,
+      "highest_prior_root_support_tip_z_within_0p25mm_xy": 2.4,
+      "tip_to_highest_prior_root_tip_z_difference_mm": 0.22999999999999998
+    }
+  ],
+  "root_check_limits": "Projects each initial inclined support point onto prior planar MODEL and SUPPORT line segments within 0.25mm XY (approximate bead half-width). Highest prior line-center tip Z is compared; actual bead tops and undersides are not measured. Later cap/support material and machine behavior are not evaluated by this local check."
+}

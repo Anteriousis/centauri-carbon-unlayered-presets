@@ -119,7 +119,7 @@
     "date": "2026-10-10",
     "project": "comparison/Centauri_FOUR_object_AB_curved_support_free.3mf",
     "native_hotend_check": "clear after reopen and re-slice",
-    "physical_print": "not performed or reported",
+    "physical_print": "First trial reported with defects; exact project used unconfirmed. See physical_trial_report.",
     "only_setting_change": "B curved Enable support OFF as object override",
     "upper_layer_angle_deg": 5,
     "layer_height_mm": 0.2,
@@ -129,5 +129,26 @@
     "full_job_material_estimate_g": 11.87,
     "transition_review": "First cap strip tip0.171\u20130.228mm above root deposition-tip height. Later frontiers advance about2.3mm; short bridging or sag remains possible. This is not physical success.",
     "details": "comparison/support_free_curve_slice_results.json"
+  },
+  "physical_trial_report": {
+    "reported_date": "2026-10-10",
+    "status": "physical trial reported with defects; successful validation not established",
+    "exact_printed_project": "unconfirmed",
+    "installed_nozzle_material_firmware": "unconfirmed",
+    "broken_specimen": "planar coupon, owner correction",
+    "warping": "owner correction: no warping; seams change position between sections",
+    "issues": [
+      "nonplanar supports start in midair",
+      "excessive support adhesion",
+      "inclined block transition gap",
+      "stringing",
+      "cross-section seam discontinuity"
+    ],
+    "finish_benefit": "not established",
+    "measured_support_reduction": "not established",
+    "toolhead_contact_observations": "unconfirmed",
+    "physical_record": "comparison/Physical_Test_Record.md",
+    "followup_path_evidence": "comparison/reported_print_support_path_review.json",
+    "zero_point_two_mm_preset": "physically untested"
   }
 }
