@@ -144,11 +144,15 @@
       "stringing",
       "cross-section seam discontinuity"
     ],
-    "finish_benefit": "not established",
+    "finish_benefit": "Inclined photo appears to show fewer, broader terrace bands; measured overall finish improvement not established.",
     "measured_support_reduction": "not established",
-    "toolhead_contact_observations": "unconfirmed",
+    "toolhead_contact_observations": "Owner noticed no nozzle/duct/shroud contact; fast movement made spare clearance difficult to judge. No measured running clearance.",
     "physical_record": "comparison/Physical_Test_Record.md",
     "followup_path_evidence": "comparison/reported_print_support_path_review.json",
-    "zero_point_two_mm_preset": "physically untested"
+    "zero_point_two_mm_preset": "physically untested",
+    "photo_identification": {
+      "photo_6": "inclined block",
+      "photo_7": "planar block, confirmed by owner"
+    }
   }
 }

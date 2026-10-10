@@ -4,7 +4,7 @@
 
 The owner supplied seven photographs and reported the observations below. The broken coupon is the **planar** specimen. The apparent block distortion was corrected by the owner to **seams changing position between the planar and inclined sections**, not warping. These corrections supersede any earlier interpretation.
 
-The exact printed project, changes, installed nozzle, actual material, firmware, date of printing, and whether any toolhead contact occurred have not yet been confirmed. The prepared project was Centauri_FOUR_object_AB_curved_support_free.3mf (0.4 mm PETG profile, 0.20 mm layers). Its project SHA256 is c7bc7ef224bbc5d049bd8308d91be6c1e4b6e5facc2a7cd141ad6d63153235bd. Do not assume that file hash identifies the physical print until the owner confirms it.
+The exact printed project, changes, installed nozzle, actual material, firmware and date of printing have not yet been confirmed. The owner subsequently reports **no nozzle, duct or shroud contact noticed**, while noting that fast movement makes judging spare clearance difficult. This is an observation from one run, not a measured running-clearance certificate. The prepared project was Centauri_FOUR_object_AB_curved_support_free.3mf (0.4 mm PETG profile, 0.20 mm layers). Its project SHA256 is c7bc7ef224bbc5d049bd8308d91be6c1e4b6e5facc2a7cd141ad6d63153235bd. Do not assume that file hash identifies the physical print until the owner confirms it.
 
 ## Reported observations
 
@@ -16,8 +16,8 @@ The exact printed project, changes, installed nozzle, actual material, firmware,
 | Inclined curved block transition | Owner reports a gap where planar and inclined portions meet | Gap dimensions and whether it is cosmetic, an unbonded region or a larger separation |
 | Inclined block seam | Owner identifies different seam positions in planar and inclined portions; explicitly says there is no warping | Exact start positions in the physically used paths |
 | Stringing | Owner reports stringing; fine strands are visible in photographs | Moisture, temperature, retraction, nozzle cleanliness and actual material |
-| Surface finish | Both photographed tops show bead texture and terrace bands; the owner does not see a clear winner | Which of photos 6 and 7 is planar; comparable lighting, roughness and repeatability |
-| Clearance | No physical clearance conclusion established | Contact/rubbing observations and physical toolhead dimensions |
+| Surface finish | Owner confirms photo 7 is planar, so photo 6 is inclined. The inclined photo appears to have fewer, broader terrace bands; both show bead texture and uneven surface coverage | Matched lighting/magnification, measured roughness and repeatability; no overall finish winner established |
+| Clearance | Owner noticed no contact; fast motion made judging spare clearance difficult | Measured running clearance, physical toolhead dimensions and repeatability |
 
 Photographs are retained in the local project evidence folder. They have not been uploaded to this public repository. Owner statements are distinguished from the read-only prepared-path checks below.
 
@@ -35,7 +35,7 @@ The earlier curved-block review also identified newly advancing cap regions with
 
 - Treat this as a first physical trial with defects, not a calibrated or safe-printing certificate. No conclusion about all-direction 5 degree clearance or firmware behavior follows.
 - The 63.263 percent coupon support reduction remains a **sliced deposition estimate**. A failed support system does not establish usable physical savings; removed support masses have not been measured.
-- No measured finish or strength improvement is established. Retain planar printing as the ordinary workflow while this trial is revised.
+- The photos suggest reduced terrace frequency in the inclined specimen; no measured overall finish or strength improvement is established. Retain planar printing as the ordinary workflow while this trial is revised.
 - First establish an ordinary planar material baseline for stringing and top-surface coverage. The prepared profile has 250 C nozzle temperature, 0.8 mm retraction at 30 mm/s and wipe ON; these are saved values, not confirmation of the actual print or optimum calibration.
 - Next isolate one simple shallow-ramp surface comparison, verify a fully supported and bonded root-to-cap transition, and force/check the same physical seam location in both sections. This should precede another complex overhang comparison.
 - Revise the coupon supports so every starting island has a real foundation from the bed or an earlier printed section. Vertical-world support direction is a candidate for review, not a validated fix. Re-slice, inspect deposition order/anchoring and run the native collision check before any print. Do not loosen head clearances to force a slice through.
