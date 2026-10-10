@@ -1,5 +1,7 @@
 # Centauri Carbon four-part planar / 5 degree comparison
 
+**Current requested variant:** open **Centauri_FOUR_object_AB_curved_support_free.3mf** for the two curved blocks without generated supports. The upper angle remains 5 degrees; both coupons retain their original support settings. Its reopened slice passes the native hotend checker and estimates 42m 2s, 11.87 g. See [Support_Free_Curved_Blocks.md](Support_Free_Curved_Blocks.md) for transition limitations and the physical-test requirement. The quantities below describe the original supported baseline, which is preserved.
+
 Status on 10 October 2026: CAD models created; four-object project sliced in Unlayered Slicer 0.1.2; native post-slice hotend checker reported **clear**. **No physical print has been performed or reported.** No user G-code file was exported and nothing was sent to the printer.
 
 Open **Centauri_FOUR_object_AB_comparison.3mf as a project**, preserving the objects, cut planes, printer configuration and process overrides. Importing the STL files alone does not create inclined layers. Keep the tested orientation and positions. The project contains exactly four models; the slicer internally creates six sections because each B model has two sections.

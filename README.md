@@ -69,6 +69,8 @@ A hypothetical raised travel at Z=8 mm clears the wedge's highest point by 2.375
 
 ## Four-part support and curved-finish comparison
 
+**Current curved-block variant:** [Open the four-part project with curved-block supports removed](comparison/Centauri_FOUR_object_AB_curved_support_free.3mf). Both curved blocks now have 0 g generated support; the overhang coupons retain their original support rules. The 5 degree build direction and horizontal transition are unchanged. Reopened and re-sliced: native hotend check clear; full-job estimate 42m 2s and 11.87 g. Read the [support-free transition review](comparison/Support_Free_Curved_Blocks.md) before a physical trial: short advancing transition regions may bridge or sag, and physical success remains untested. The table and image below preserve the original supported baseline.
+
 The [four-part 0.4 mm project](comparison/Centauri_FOUR_object_AB_comparison.3mf) contains two identical overhang coupons and two identical custom curved blocks: A on the left uses horizontal layers; B on the right uses horizontal roots and 5 degree inclined upper regions. Open it **as a project**, preserving cut planes and process overrides. Both coupons use the same automatic support rules; the stock-derived process has supports enabled for this shared experiment.
 
 Unlayered 0.1.2 sliced the final project and its native post-slice hotend checker reported **clear**. Earlier inclined section boundaries produced transition warnings; the accepted project uses horizontal section boundaries with independent 5 degree build normals. Clearance angles were not loosened. This is bounded software evidence, not a physical safety claim.

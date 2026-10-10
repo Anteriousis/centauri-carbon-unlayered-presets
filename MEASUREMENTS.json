@@ -114,5 +114,20 @@
     "coupon_support_reduction_percent": 63.26344687665218,
     "height_correction": "Earlier10mm total-height cap included end parking and rejected slice; corrected100mm is not100mm nonplanar object capacity.",
     "details": "comparison/comparison_slice_results.json"
+  },
+  "curved_support_free_variant": {
+    "date": "2026-10-10",
+    "project": "comparison/Centauri_FOUR_object_AB_curved_support_free.3mf",
+    "native_hotend_check": "clear after reopen and re-slice",
+    "physical_print": "not performed or reported",
+    "only_setting_change": "B curved Enable support OFF as object override",
+    "upper_layer_angle_deg": 5,
+    "layer_height_mm": 0.2,
+    "curve_support_mass_g": 0,
+    "coupon_support_reduction_percent": 63.26344687665,
+    "full_job_time_estimate": "42m2s",
+    "full_job_material_estimate_g": 11.87,
+    "transition_review": "First cap strip tip0.171\u20130.228mm above root deposition-tip height. Later frontiers advance about2.3mm; short bridging or sag remains possible. This is not physical success.",
+    "details": "comparison/support_free_curve_slice_results.json"
   }
 }

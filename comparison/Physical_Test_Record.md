@@ -1,6 +1,6 @@
 # Physical test record — not yet performed
 
-Test project: Centauri_FOUR_object_AB_comparison.3mf (0.4 mm, PETG, 0.20 mm, two planar controls and two 5 degree upper-region specimens).
+Current requested test project: **Centauri_FOUR_object_AB_curved_support_free.3mf** (0.4 mm, PETG, 0.20 mm, two planar controls and two 5 degree upper-region specimens). Both curved blocks have no generated support; the two overhang coupons retain supports. Record the exact project used: the original **Centauri_FOUR_object_AB_comparison.3mf** is a separate historical baseline that includes B curved transition supports.
 
 Leave status “not performed” until the machine has printed the specimens and evidence is recorded. A successful slice does not complete this record.
 
@@ -25,7 +25,7 @@ Leave status “not performed” until the machine has printed the specimens and
 | A Support planar | Pending | Pending | Pending | Pending |
 | B Support5deg | Pending | Pending | Pending | Pending |
 | A Curved planar | Pending | Not expected | Pending | Pending |
-| B Curved5deg | Pending | Pending | Pending | Pending |
+| B Curved5deg | Pending | Not expected for current variant | Pending; inspect the advancing inclined transition | Pending |
 
 Use the same lighting and magnification for finish photos. Include support-before-removal photos and an underside image of each fin. Record the measured support reduction separately from the 63.263% sliced estimate.
 
