@@ -1,0 +1,16 @@
+{
+  "brim_type": "no_brim",
+  "from": "User",
+  "inherits": "0.20mm Standard @Elegoo CC 0.4 nozzle",
+  "name": "0.20mm Standard @Elegoo CC 0.4 nozzle - Nonplanar Test",
+  "print_extruder_id": [
+    "1"
+  ],
+  "print_extruder_variant": [
+    "Direct Drive Standard"
+  ],
+  "print_sequence": "by group",
+  "print_settings_id": "0.20mm Standard @Elegoo CC 0.4 nozzle - Nonplanar Test",
+  "version": "2.4.0.7",
+  "type": "process"
+}
